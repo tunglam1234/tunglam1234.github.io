@@ -1,0 +1,381 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Open Sans';
+}
+h1{
+	font-size: 29px;
+	margin: 0;
+	line-height: 1.2;
+}
+
+h2{
+	font-size: 20px; 
+}
+
+.header{
+	height: 70px;
+	background: #000000;
+	position: relative;
+	line-height: 70px;
+	padding: 0 100px;
+	color: #ffffff;
+}
+.logo{
+	font-size: 24px;
+	line-height: 70px;
+	float: left;
+	text-transform: uppercase;
+}
+.header .content{
+	padding: 0;
+}
+.menu {
+	float: right; 
+}
+.menu-itm {
+	float: left;
+	font-size: 15px; 
+	padding: 0 15px
+}
+
+.menu-itm:hover {
+	color: orange;
+}
+
+.menu-itm:active {
+	color: #5e4a33;
+}
+.ax {
+    font-weight: bold;
+    font-size: 30px;
+}
+.it {
+    color: #ff9b51;
+    font-size: 30px;
+}
+
+.banner{
+    background:url("../image/Header_Panel.jpg") no-repeat bottom center;;
+    padding: 100px 0 120px;
+    background-size: cover;
+}
+.banner .text_form{
+    margin-top: 50px;
+}
+.banner h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+.banner p{
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway Light';
+}
+.banner .download{
+    display: block;
+    width: 133px;
+    height: 40px;
+    border: 1px solid white;
+}
+.banner a.download{
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.banner form{
+    max-width: 360px;
+    width: 100%;
+    background: white;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.banner .span_border{
+    display: block;
+    background: white;
+    width: 70px;
+    height: 2px;
+    margin: 40px 0;
+}
+.banner form h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 3px;
+}
+.banner form input{
+    width: 85%;
+    border: 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px;
+    outline: 0;
+}
+.banner form a{
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9b51;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.tab{
+    padding-top: 110px;
+    padding-bottom: 125px;
+    background:#f5f5f5;
+}
+.tab p{
+    color:#868799;
+}
+.tab-links li {
+    margin: 0 5px;
+    list-style: none;
+}
+.tabs ul {
+    padding: 0;
+}
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.tab-links a {
+    width:112px;
+    height:112px;
+    line-height:112px;
+    display:block;
+    background: #333333;
+    border-bottom:1px solid #fff;
+    font-size: 15px;
+    font-weight:700;
+    color: #fff;
+    text-align:center;
+    text-decoration: none;
+}
+.tab-links a:hover {
+    background: #ff8b38;
+    text-decoration: none;
+}
+.tab-content a{
+    width:120px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    background:#ff8b38;
+    border-radius:3px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sub{
+    padding: 110px 0 120px;
+}
+.sub .img-left{
+    width: 100%;
+}
+.sub h3{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 20px;
+}
+.sub h4{
+    font-size: 14px;
+}
+.sub p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:#86878b;
+}
+.sub .padding_p{
+    padding-bottom: 30px;
+}
+.sub .line{
+    margin: 30px 0;
+    width: 65px;
+    height: 2px;
+    display: block;
+    background:#ff9b51 ;
+}
+.sub i{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid #ff9b51;
+    color: #ff9b51;
+    font-size: 18px;
+}
+
+.standart{
+    padding:110px 0 120px;
+    background-color: #f5f5f5;
+}
+.standart .img_right{
+    width: 100%;
+}
+.standart h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.standart p{
+    font-size: 15px;
+    color: #86878b;
+}
+.standart .line{
+    width: 65px;
+    height: 2px;
+    display: block;
+    background: #ff9b51;
+    margin: 30px 0;    
+}
+
+.awesom {
+    padding: 100px 0;
+    text-align: center;
+}
+.awesom h2{
+    font-size: 35px;
+}
+.awesom .line{
+    display: block;
+    background: #ff9b51;
+    margin: 30px auto;
+    width: 65px;
+    height: 2px;
+}
+.awesom p{
+    font-size: 15px;
+    color: #86878b;
+}
+.awesom .awesom_p{
+    padding-bottom: 60px;
+    font-size: 15px;
+    color: #86878b;
+}
+.awesom h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px;
+}
+.awesom i{
+    width: 70px;
+    height: 70px;
+    line-height: 66px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ff9b51;
+    color: #ff9b51;
+    font-size:30px;
+}
+
+.design{
+    min-height: 320px;
+    background-size: cover;
+    padding: 70px 0;
+    color: #fff;
+    text-align: center;
+    background:url(../image/paralax.jpg);
+}
+.design h2{
+    font-size: 36px;
+}
+.design p{
+    font-size: 15px;
+    color: #86878b;
+    padding-bottom: 60px;
+}
+.design a{
+    display: block;
+    width: 133px;
+    height: 40px;
+    border: 1px solid white;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.contact{
+    padding: 90px 0;
+    text-align: center;
+}
+.contact h2{
+    font-size: 35px;
+}
+.contact .line{
+    display: block;
+    background: #ff9b51;
+    margin: 30px auto;
+    width: 65px;
+    height: 2px
+}
+.contact .awesom_p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    color:#86878b;
+    padding-bottom: 80px;
+}
+.contact input,.contact textarea{
+    width: 100%;
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 20px;
+    padding: 13px;
+    font-size: 15px;
+}
+.contact textarea{
+    height: 180px;
+}
+.contact a{
+    display: block;
+    border-radius: 3px;
+    width: 133px;
+    height: 40px;
+    background-color:#ff8b38;
+    margin:auto;
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+}
+footer p{
+    padding: 8px 0;
+    font-size: 12px;
+    color: #616161;
+}
+.div_footer{
+    padding-top: 18px;
+}
+.div_footer a{
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+}
